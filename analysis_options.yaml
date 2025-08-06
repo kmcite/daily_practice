@@ -13,6 +13,7 @@ analyzer:
     camel_case_types: ignore
     use_function_type_syntax_for_parameters: ignore
     no_leading_underscores_for_local_identifiers: ignore
+    avoid_print: ignore
 include: package:flutter_lints/flutter.yaml
 
 linter:
