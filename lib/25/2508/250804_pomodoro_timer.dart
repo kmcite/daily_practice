@@ -227,7 +227,7 @@ class TimerRepository {
     );
   }
 
-  void tick(_) {
+  void tick(Timer _) {
     time.seconds++;
     controller.add(time);
   }
