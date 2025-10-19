@@ -3,23 +3,34 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "level_1.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "level_1.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 15,
+                "y": 557
+            }
+        },
         "notes.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 0.25,
             "scaleInEditor": 1
         }
     },
     "last.imagePath": "D:/PROJECTS_NEW/daily_practice/assets/images",
     "map.lastUsedFormat": "tmx",
     "openFiles": [
+        "level_1.tmx",
+        "notes.tsx"
     ],
     "project": "flappy.tiled-project",
     "recentFiles": [
-        "notes.tsx"
+        "notes.tsx",
+        "level_1.tmx"
     ],
     "tileset.lastUsedFormat": "tsx"
 }

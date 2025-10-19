@@ -223,7 +223,7 @@ final CountersRepository countersRepository = CountersRepository();
 class CountersRepository {
   final StreamController<Counter> _controller = StreamController.broadcast();
 
-  /// main source if truth
+  /// main source of truth
   final counters = <String, Counter>{};
 
   /// get counter by id
@@ -261,4 +261,9 @@ class Counter {
   int value;
   Counter(this.id, this.value);
   factory Counter.none() => Counter('NONE', -0);
+  @override
+  String toString() {
+    if (id == 'NONE') return 'Counter.none()';
+    return 'Counter($id, $value)';
+  }
 }
